@@ -1,2 +1,37 @@
-<h1>Pages#memories</h1>
-<p>Find me in app/views/pages/memories.html.erb</p>
+<div class="pictures-head">
+  <div class="container">
+    <div class="row">
+        <h2>memories.</h2>
+    </div>
+  </div>
+</div>
+
+<div class="pictures">
+	<div class="container">
+		<div class="row" ng-repeat="picrow in picrows">
+			<div class="col-xs-8">
+				<div class="pictures-main">
+					<img ng-src="{{picrow.main}}" />
+				</div>
+			</div>
+			<div class="col-xs-4">
+				<div class="row">
+					<div class="col-xs-6 pictures-mini">
+						<img ng-src="{{picrow.img1}}" />
+					</div>
+					<div class="col-xs-6 pictures-mini">
+						<img ng-src="{{picrow.img2}}" />
+					</div>
+				</div>
+				<div class="row">
+					<div class="col-xs-6 pictures-mini">
+						<img ng-src="{{picrow.img3}}" />
+					</div>
+					<div class="col-xs-6 pictures-mini">
+						<img ng-src="{{picrow.img4}}" />
+					</div>
+				</div>
+			</div>
+		</div>
+  </div>
+</div>
