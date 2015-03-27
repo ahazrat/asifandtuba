@@ -25,17 +25,19 @@
 				<p>A long time ago in a highschool far, far away...</p>
 			</div>
 		</div>
+
 		<div class="row navlinks">
 			<div class="col-xs-4">
-				<a href="#events"><span class="glyphicon glyphicon-leaf gly-spin" aria-hidden="true"></span>&nbsp;&nbsp;in progress</a>
+				<%= link_to "what's to come", pages_events_path %>
 			</div>
 			<div class="col-xs-4">
-				<a href="#memories"><span class="glyphicon glyphicon-leaf" aria-hidden="true"></span>&nbsp;&nbsp;take a peek</a>
+				<%= link_to 'take a peek', pages_memories_path %>
 			</div>
 			<div class="col-xs-4">
-				<a href="#stories">COMING SOON</a>
+				<%= link_to 'Stories', pages_stories_path %>
 			</div>
 		</div>
+		
 	</div>
 </div>
 
@@ -50,7 +52,7 @@
 		<h2>RSVP</h2>
 		<p>Let us know you're coming and receive updates as we get close to the big day</p>
 		<div class="navlinks">
-			<a href="#rsvp">RSVP</a>
+			<%= link_to 'RSVP', pages_rsvp_path %>
 		</div>
 	</div>
 </div>
