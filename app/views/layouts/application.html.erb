@@ -15,12 +15,12 @@
 </head>
 <body>
 
-<%= render 'layouts/header' %>
-
-<%= yield %>
-
-	<script src="js/leaves.js"></script>
-	<!--<script src='js/music.js'></script>-->
+  <%= render 'layouts/header' %>
+  
+  <%= yield %>
+  
+  <%= javascript_include_tag '/assets/javascript/leaves' %>
+  <%= javascript_include_tag '/assets/javascript/music' %>
 
 </body>
 </html>
