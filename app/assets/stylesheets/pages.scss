@@ -156,70 +156,61 @@ a:hover, .header .logo:hover {
 .events {
 	color: #651400;
 	text-shadow: 0 0 10px #FF9F00;
-}
-
-.events-header {
-	background-image: url('https://i.imgur.com/rKntEoE.jpg');
+	background-image: url('http://i.imgur.com/Pw9KLJH.jpg');
 	background-size: 100%;
 	background-position: 50% 50%;
 	background-repeat: no-repeat;
-	height: 450px;
+	height: 100%;
+	.row {
+		background-color: rgba(0,0,0,0.5);
+	}
+	h1 {
+		margin: 0;
+		padding: 175px 50px;
+		text-align: left;
+		font-size: 150px;
+	}
+	h2 {
+		color: #651400;
+		padding: 15px 0;
+		font-size: 70px;
+		text-shadow: 0 0 10px #FF9F00;
+	}
+	h3 {
+		text-shadow: 0 0 3px #FF9F00;
+	}
+	p {
+		font-size: 20px;
+		text-shadow: 0 0 1px #FF9F00;
+	}
 }
 
-.events-header h1 {
-	text-align: left;
-	font-size: 150px;
-	margin-top: 100px;
-}
-
-.events-support {
-	height: 500px;
-	padding-top: 50px;
-}
-
-.events-support h1 {
-	font-size: 70px;
-}
-
-.events-support p {
-	font-size: 20px;
-	padding-top: 20px;
-}
 .mehndi {
+	background-image: url('https://i.imgur.com/rKntEoE.jpg');
 	background-image: url('https://i.imgur.com/3RkLBfa.jpg');
-	background-size: 100%;
-	text-align: right;
-}
-
-.shaadi {
 	background-image: url('https://i.imgur.com/MLgLWl7.jpg');
-	background-size: cover;
-	background-position: 50% 60%;
-	text-align: left;
-}
-
-.shaadi p {
+	background-image: url('https://i.imgur.com/4lFmh7g.jpg');
 	text-shadow: 0 0 1px #FF9F00;
 }
 
-.valima {
-	background-image: url('https://i.imgur.com/4lFmh7g.jpg');
-	background-size: cover;
-	background-position: 50% 50%;
-	text-align: right;
-}
-
-.pictures-head {
-	height: 450px;
-	background-image: url('https://i.imgur.com/jB046Dt.jpg');
-	background-size: 70%;
-	background-position: 50% 30%;
-}
-
-.pictures-head h2 {
-	text-align: right;
-	margin-top: 100px;
-	font-size: 80px;
+.pictures {
+	.jumbotron {
+		height: 450px;
+		background-image: url('https://i.imgur.com/jB046Dt.jpg');
+		background-size: 70%;
+		background-position: 50% 30%;
+		h2 {
+			text-align: right;
+			margin-top: 100px;
+			font-size: 80px;			
+		}
+	}
+	img {
+		width: 200px;
+	}
+	.mainpic {
+		width: 500px;
+	}
 }
 
 .pictures-main {

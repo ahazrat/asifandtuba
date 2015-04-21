@@ -1,14 +1,27 @@
 <% provide(:title, 'Memories') %>
-
-<div class="pictures-head">
-  <div class="container">
-    <div class="row">
-        <h2>memories.</h2>
-    </div>
-  </div>
-</div>
-
 <div class="pictures">
+	
+	<div class="jumbotron">
+		<div class='container'>
+			<h2>memories.</h2>
+		</div>
+	</div>
+	
+	<div class='container'>
+		<%= image_tag("http://i.imgur.com/QCSlS3o.jpg", class: 'mainpic') %>
+		<%= image_tag("http://i.imgur.com/4HPjm9c.jpg") %>
+		<%= image_tag("http://i.imgur.com/X5506vR.jpg") %>
+		<%= image_tag("http://i.imgur.com/k4GQ4Ys.jpg") %>
+		<%= image_tag("http://i.imgur.com/kLcg6H8.jpg") %>
+	</div>
+
+	<div class="block">
+		<%= link_to root_path do %>
+			<%= render "layouts/images", :images => @images %>
+		<% end %>
+	</div>
+
+	
 	<div class="container">
 		<div class="row" ng-repeat="picrow in picrows">
 			<div class="col-xs-8">
@@ -36,4 +49,5 @@
 			</div>
 		</div>
   </div>
+
 </div>
