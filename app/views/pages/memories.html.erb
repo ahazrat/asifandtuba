@@ -1,0 +1,38 @@
+<% provide(:title, 'Memories') %>
+
+<div class='memories'>
+  
+  <div class='jumbotron'>
+    <div class='container'>
+      <h2>memories.</h2>
+    </div>
+  </div>
+  
+  <div class='container'>
+    
+    <% @memories.each do |memory| %>
+    
+      <% if (memory.id % 5 == 1) %>
+        <div class='row'>
+          <div class='col-xs-8'>
+            <%= link_to image_tag(memory.thumbnail, size: "650x300"), memory.url %>
+          </div>
+      
+      <% elsif (memory.id % 5 == 0) %>
+        <div class='col-xs-2'>
+          <%= link_to image_tag(memory.thumbnail, size: "150"), memory.url %>
+        </div>
+        </div>
+      <% else %>
+        <div class='col-xs-2'>
+          <%= link_to image_tag(memory.thumbnail, size: "150"), memory.url %>
+        </div>
+      <% end %>
+      
+    <% end %>
+    
+    </div>
+    
+  </div>
+  
+</div>

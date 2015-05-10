@@ -1,0 +1,24 @@
+<% provide(:title, 'RSVP') %>
+
+<div class="rsvp">
+    <div class="container">
+        <div class="row">
+            <h1 class="headline">join us.</h1>
+            <p>Don't worry Chetan and ChingWa. You won't miss the deadline :P</p>
+
+        </div>
+        <br/>
+        <div class="row">
+            <p>First Name</p>
+            <p class="first-name-error"></p>
+            <input type="text" ng-model="rsvp.firstName" /><br/><br/>
+            <p>Last Name</p>
+            <p class="last-name-error"></p>
+            <input type="text" ng-model="rsvp.lastName" /><br/><br/>
+            <p>Email</p>
+            <p class="email-error"></p>
+            <input type="email" ng-model="rsvp.email" /><br/><br/><br/>
+            <a ng-click="submit(rsvp)" value="submit">Submit</a>
+        </div>
+    </div>
+</div>

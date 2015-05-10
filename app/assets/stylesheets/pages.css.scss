@@ -1,0 +1,142 @@
+html {
+  
+}
+
+body {
+  background-color: #1c1c1c;
+  color: white;
+  font-family: 'Ubuntu', sans-serif;
+}
+
+.container {
+  width: 970px;
+}
+
+a, a:hover, a:visited {
+	text-decoration: none;
+	font-weight: bold;
+	padding: 10px 30px;
+	border-radius: 6px;
+}
+a, a:visited {
+	color: lime;
+	background-color: #333333;
+}
+a:hover {
+	color: #333333;
+	background-color: lime;
+}
+
+.header {
+  background-color: rgb(0,120,20);
+  position: fixed;
+  width: 100%;
+  font-size: 130%;
+  padding: 5px;
+  z-index: 1000;
+  .logo {
+    font-family: 'Dancing Script', cursive;
+  }
+}
+
+.home {
+  .jumbotron {
+    height: 450px;
+    background-image: url('https://i.imgur.com/WOT5U9O.jpg');
+    background-size: cover;
+    text-align: right;
+    margin: 0;
+    h1 {
+      font-family: 'Dancing Script', cursive;
+      margin-top: 70px;
+    }
+    p {
+      font-size: 90%;
+    }
+  }
+  .support {
+    height: 300px;
+    text-align: center;
+    padding-top: 50px;
+    h2 {
+      color: lime;
+      text-shadow: 0 0 5px lime;
+      font-size: 40px;
+    }
+    p {
+      padding: 10px 0;
+  }
+}
+  .feature {
+    height: 400px;
+    background-size: cover;
+  	background-position: 50% 50%;
+  	padding-top: 150px;
+  	text-align: center;
+  	h3 {
+      font-family: 'Dancing Script', cursive;
+      font-size: 50px;
+    }
+  }
+  .leaf-banner {
+    background-image: url('https://i.imgur.com/rZC0SvP.jpg');
+  }
+  .flower-banner {
+    background-image: url('https://i.imgur.com/onyoq56.jpg');
+  }
+}
+
+.rsvp {
+  padding-top: 100px;
+  h1 {
+    font-family: 'Dancing Script', cursive;
+    margin-left: 50px;
+  }
+}
+
+.events {
+  background-image: url('http://i.imgur.com/Pw9KLJH.jpg');
+  background-size: cover;
+  color: #651400;
+  text-shadow: 0 0 10px #FF9F00;
+  .row {
+    text-align: center;
+  }
+  h1 {
+    font-size: 150px;
+    padding: 175px 50px;
+  }
+  h2 {
+    font-size: 75px;
+    padding: 15px 0;
+  }
+  h3 {
+    font-family: 'Dancing Script', cursive;
+    font-size: 50px;
+  }
+  p {
+    font-size: 20px;
+  }
+}
+
+.memories {
+  .jumbotron {
+    background-image: url('https://i.imgur.com/jB046Dt.jpg');
+    background-size: 70%;
+    background-position: 50% 30%;
+    height: 450px;
+    text-align: right;
+    h2 {
+      font-size: 80px;
+      color: lime;
+      text-shadow: 0 0 10px lime;
+    }
+  }
+  a, a:hover, a:visited {
+    padding: 0;
+  }
+}
+
+.stories {
+  padding-top: 100px;
+}
