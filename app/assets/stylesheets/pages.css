@@ -1,0 +1,203 @@
+html {
+  margin: 0;
+  font-family: 'Ubuntu', sans-serif;
+  background-color: #1c1c1c;
+  text-align: center;
+  color: white; }
+
+.container {
+  width: 970px; }
+
+.header {
+  background-color: #007814;
+  position: fixed;
+  width: 100%;
+  z-index: 1000;
+  text-align: left;
+  font-size: 130%; }
+
+.header a, .header a:visited {
+  text-decoration: none;
+  margin: 5px;
+  color: lime; }
+
+.header .logo {
+  font-family: 'Dancing Script', cursive; }
+
+h2 {
+  color: lime;
+  font-size: 40px;
+  text-shadow: 0 0 5px lime;
+  margin: 10px 0; }
+
+h3 {
+  font-family: 'Dancing Script', cursive;
+  text-shadow: 0 0 40px white;
+  font-size: 50px; }
+
+a, a:hover, a:visited {
+  display: inline;
+  text-decoration: none;
+  font-weight: bold;
+  padding: 10px 30px;
+  border-radius: 6px; }
+
+a, a:visited {
+  color: lime;
+  background-color: #333333; }
+
+a:hover, .header .logo:hover {
+  color: #333333;
+  background-color: lime; }
+
+.jumbotron {
+  height: 450px;
+  padding: 50px 0;
+  text-align: right;
+  background-image: url("https://i.imgur.com/WOT5U9O.jpg");
+  background-size: cover; }
+
+.jumbotron h1 {
+  font-family: 'Dancing Script', cursive;
+  text-shadow: 0 0 40px white;
+  margin-top: 70px; }
+
+.jumbotron p {
+  font-size: 110%; }
+
+.support {
+  padding: 50px 0; }
+
+.navlinks {
+  padding: 10px 0; }
+
+.feature {
+  background-size: cover;
+  background-position: 50% 50%;
+  padding: 150px 0; }
+
+.leaf {
+  background-image: url("https://i.imgur.com/rZC0SvP.jpg"); }
+
+.flower {
+  background-image: url("https://i.imgur.com/onyoq56.jpg"); }
+
+.glyphicon-leaf {
+  transform: rotate(90deg); }
+
+.gly-spin {
+  -webkit-animation: spin 2s infinite linear;
+  -moz-animation: spin 2s infinite linear;
+  -o-animation: spin 2s infinite linear;
+  animation: spin 2s infinite linear; }
+
+@-moz-keyframes spin {
+  0% {
+    -moz-transform: rotate(0deg); }
+  100% {
+    -moz-transform: rotate(359deg); } }
+@-webkit-keyframes spin {
+  0% {
+    -webkit-transform: rotate(0deg); }
+  100% {
+    -webkit-transform: rotate(359deg); } }
+@-o-keyframes spin {
+  0% {
+    -o-transform: rotate(0deg); }
+  100% {
+    -o-transform: rotate(359deg); } }
+@keyframes spin {
+  0% {
+    -webkit-transform: rotate(0deg);
+    transform: rotate(0deg); }
+  100% {
+    -webkit-transform: rotate(359deg);
+    transform: rotate(359deg); } }
+.testleaf {
+  position: absolute;
+  color: lime; }
+
+.events {
+  color: #651400;
+  text-shadow: 0 0 10px #FF9F00;
+  background-image: url("http://i.imgur.com/Pw9KLJH.jpg");
+  background-size: 100%;
+  background-position: 50% 50%;
+  background-repeat: no-repeat;
+  height: 100%; }
+  .events .row {
+    background-color: rgba(0, 0, 0, 0.5); }
+  .events h1 {
+    margin: 0;
+    padding: 175px 50px;
+    text-align: left;
+    font-size: 150px; }
+  .events h2 {
+    color: #651400;
+    padding: 15px 0;
+    font-size: 70px;
+    text-shadow: 0 0 10px #FF9F00; }
+  .events h3 {
+    text-shadow: 0 0 3px #FF9F00; }
+  .events p {
+    font-size: 20px;
+    text-shadow: 0 0 1px #FF9F00; }
+
+.mehndi {
+  background-image: url("https://i.imgur.com/rKntEoE.jpg");
+  background-image: url("https://i.imgur.com/3RkLBfa.jpg");
+  background-image: url("https://i.imgur.com/MLgLWl7.jpg");
+  background-image: url("https://i.imgur.com/4lFmh7g.jpg");
+  text-shadow: 0 0 1px #FF9F00; }
+
+.pictures .jumbotron {
+  height: 450px;
+  background-image: url("https://i.imgur.com/jB046Dt.jpg");
+  background-size: 70%;
+  background-position: 50% 30%; }
+  .pictures .jumbotron h2 {
+    text-align: right;
+    margin-top: 100px;
+    font-size: 80px; }
+.pictures img {
+  width: 200px; }
+.pictures .mainpic {
+  width: 500px; }
+
+.pictures-main {
+  height: 300px;
+  overflow: hidden;
+  border-radius: 10px; }
+
+.pictures-main img {
+  width: 100%; }
+
+.pictures-mini {
+  height: 150px;
+  overflow: hidden;
+  border-radius: 10px; }
+
+.pictures-mini img {
+  width: 100%; }
+
+.pictures .col-xs-4,
+.pictures .col-xs-6,
+.pictures .col-xs-8 {
+  padding: 1px; }
+
+.rsvp {
+  text-align: left; }
+
+.rsvp h1 {
+  margin-top: 100px;
+  margin-left: 50px;
+  font-family: 'Dancing Script', cursive;
+  text-shadow: 0 0 40px white; }
+
+.rsvp p {
+  font-size: 80%; }
+
+input {
+  color: black; }
+
+/*# sourceMappingURL=pages.css.map */

@@ -1,259 +1,142 @@
-// Place all the styles related to the Pages controller here.
-// They will automatically be included in application.css.
-// You can use Sass (SCSS) here: http://sass-lang.com/
-html, body {
-	margin: 0;
-	font-family: 'Ubuntu', sans-serif;
-	background-color: #1c1c1c;
-	text-align: center;
-	color: white;
+html {
+  
+}
+
+body {
+  background-color: #1c1c1c;
+  color: white;
+  font-family: 'Ubuntu', sans-serif;
 }
 
 .container {
-	width: 970px;
-}
-
-.header {
-	background-color: rgb(0,120,20);
-	position: fixed;
-	width: 100%;
-	z-index: 1000;
-	text-align: left;
-	font-size: 130%;
-}
-
-.header a, .header a:visited  {
-	text-decoration: none;
-	margin: 5px;
-	color: lime;
-}
-
-.header .logo {
-	font-family: 'Dancing Script', cursive;
-}
-	
-h2 {
-	color: lime;
-	font-size: 40px;
-	text-shadow: 0 0 5px lime;
-	margin: 10px 0;
-}
-
-h3 {
-	font-family: 'Dancing Script', cursive;
-	text-shadow: 0 0 40px white;
-	font-size: 50px;
+  width: 970px;
 }
 
 a, a:hover, a:visited {
-	display: inline;
 	text-decoration: none;
 	font-weight: bold;
 	padding: 10px 30px;
 	border-radius: 6px;
 }
-
 a, a:visited {
 	color: lime;
 	background-color: #333333;
 }
-
-a:hover, .header .logo:hover {
+a:hover {
 	color: #333333;
 	background-color: lime;
 }
 
-.jumbotron {
-	height: 450px;
-	padding: 50px 0;
-	text-align: right;
-	background-image: url('https://i.imgur.com/WOT5U9O.jpg');
-	background-size: cover;
-}
-
-.jumbotron h1 {
-	font-family: 'Dancing Script', cursive;
-	text-shadow: 0 0 40px white;
-	margin-top: 70px;
-}
-
-.jumbotron p {
-	font-size: 110%;
-}
-
-.support {
-	padding: 50px 0;
-}
-
-.navlinks {
-	padding: 10px 0;
-}
-
-.feature {
-	background-size: cover;
-	background-position: 50% 50%;
-	padding: 150px 0;
-}
-
-.leaf {
-	background-image: url('https://i.imgur.com/rZC0SvP.jpg');
-}
-
-.flower {
-	background-image: url('https://i.imgur.com/onyoq56.jpg');
-}
-
-.glyphicon-leaf {
-	transform: rotate(90deg);
-}
-
-.gly-spin {
-  -webkit-animation: spin 2s infinite linear;
-  -moz-animation: spin 2s infinite linear;
-  -o-animation: spin 2s infinite linear;
-  animation: spin 2s infinite linear;
-}
-@-moz-keyframes spin {
-  0% {
-    -moz-transform: rotate(0deg);
-  }
-  100% {
-    -moz-transform: rotate(359deg);
-  }
-}
-@-webkit-keyframes spin {
-  0% {
-    -webkit-transform: rotate(0deg);
-  }
-  100% {
-    -webkit-transform: rotate(359deg);
-  }
-}
-@-o-keyframes spin {
-  0% {
-    -o-transform: rotate(0deg);
-  }
-  100% {
-    -o-transform: rotate(359deg);
-  }
-}
-@keyframes spin {
-  0% {
-    -webkit-transform: rotate(0deg);
-    transform: rotate(0deg);
-  }
-  100% {
-    -webkit-transform: rotate(359deg);
-    transform: rotate(359deg);
+.header {
+  background-color: rgb(0,120,20);
+  position: fixed;
+  width: 100%;
+  font-size: 130%;
+  padding: 5px;
+  z-index: 1000;
+  .logo {
+    font-family: 'Dancing Script', cursive;
   }
 }
 
-.testleaf {
-	position: absolute;
-	color: lime;
+.home {
+  .jumbotron {
+    height: 450px;
+    background-image: url('https://i.imgur.com/WOT5U9O.jpg');
+    background-size: cover;
+    text-align: right;
+    margin: 0;
+    h1 {
+      font-family: 'Dancing Script', cursive;
+      margin-top: 70px;
+    }
+    p {
+      font-size: 90%;
+    }
+  }
+  .support {
+    height: 300px;
+    text-align: center;
+    padding-top: 50px;
+    h2 {
+      color: lime;
+      text-shadow: 0 0 5px lime;
+      font-size: 40px;
+    }
+    p {
+      padding: 10px 0;
+  }
 }
-
-.events {
-	color: #651400;
-	text-shadow: 0 0 10px #FF9F00;
-	background-image: url('http://i.imgur.com/Pw9KLJH.jpg');
-	background-size: 100%;
-	background-position: 50% 50%;
-	background-repeat: no-repeat;
-	height: 100%;
-	.row {
-		background-color: rgba(0,0,0,0.5);
-	}
-	h1 {
-		margin: 0;
-		padding: 175px 50px;
-		text-align: left;
-		font-size: 150px;
-	}
-	h2 {
-		color: #651400;
-		padding: 15px 0;
-		font-size: 70px;
-		text-shadow: 0 0 10px #FF9F00;
-	}
-	h3 {
-		text-shadow: 0 0 3px #FF9F00;
-	}
-	p {
-		font-size: 20px;
-		text-shadow: 0 0 1px #FF9F00;
-	}
-}
-
-.mehndi {
-	background-image: url('https://i.imgur.com/rKntEoE.jpg');
-	background-image: url('https://i.imgur.com/3RkLBfa.jpg');
-	background-image: url('https://i.imgur.com/MLgLWl7.jpg');
-	background-image: url('https://i.imgur.com/4lFmh7g.jpg');
-	text-shadow: 0 0 1px #FF9F00;
-}
-
-.pictures {
-	.jumbotron {
-		height: 450px;
-		background-image: url('https://i.imgur.com/jB046Dt.jpg');
-		background-size: 70%;
-		background-position: 50% 30%;
-		h2 {
-			text-align: right;
-			margin-top: 100px;
-			font-size: 80px;			
-		}
-	}
-	img {
-		width: 200px;
-	}
-	.mainpic {
-		width: 500px;
-	}
-}
-
-.pictures-main {
-	height: 300px;
-	overflow: hidden;
-	border-radius: 10px;
-}
-
-.pictures-main img {
-	width: 100%;
-}
-
-.pictures-mini {
-	height: 150px;
-	overflow: hidden;
-	border-radius: 10px;
-}
-
-.pictures-mini img {
-	width: 100%;
-}
-
-.pictures .col-xs-4,
-.pictures .col-xs-6, 
-.pictures .col-xs-8 {
-	padding: 1px;
+  .feature {
+    height: 400px;
+    background-size: cover;
+  	background-position: 50% 50%;
+  	padding-top: 150px;
+  	text-align: center;
+  	h3 {
+      font-family: 'Dancing Script', cursive;
+      font-size: 50px;
+    }
+  }
+  .leaf-banner {
+    background-image: url('https://i.imgur.com/rZC0SvP.jpg');
+  }
+  .flower-banner {
+    background-image: url('https://i.imgur.com/onyoq56.jpg');
+  }
 }
 
 .rsvp {
-	text-align: left;
+  padding-top: 100px;
+  h1 {
+    font-family: 'Dancing Script', cursive;
+    margin-left: 50px;
+  }
 }
 
-.rsvp h1 {
-	margin-top: 100px;
-	margin-left: 50px;
-	font-family: 'Dancing Script', cursive;
-	text-shadow: 0 0 40px white;
+.events {
+  background-image: url('http://i.imgur.com/Pw9KLJH.jpg');
+  background-size: cover;
+  color: #651400;
+  text-shadow: 0 0 10px #FF9F00;
+  .row {
+    text-align: center;
+  }
+  h1 {
+    font-size: 150px;
+    padding: 175px 50px;
+  }
+  h2 {
+    font-size: 75px;
+    padding: 15px 0;
+  }
+  h3 {
+    font-family: 'Dancing Script', cursive;
+    font-size: 50px;
+  }
+  p {
+    font-size: 20px;
+  }
 }
 
-.rsvp p {
-	font-size: 80%;
+.memories {
+  .jumbotron {
+    background-image: url('https://i.imgur.com/jB046Dt.jpg');
+    background-size: 70%;
+    background-position: 50% 30%;
+    height: 450px;
+    text-align: right;
+    h2 {
+      font-size: 80px;
+      color: lime;
+      text-shadow: 0 0 10px lime;
+    }
+  }
+  a, a:hover, a:visited {
+    padding: 0;
+  }
 }
 
-input {
-	color: rgb(0,0,0);
+.stories {
+  padding-top: 100px;
 }

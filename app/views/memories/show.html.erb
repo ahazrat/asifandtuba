@@ -1,0 +1,19 @@
+<p id="notice"><%= notice %></p>
+
+<p>
+  <strong>Title:</strong>
+  <%= @memory.title %>
+</p>
+
+<p>
+  <strong>Imgurl:</strong>
+  <%= @memory.imgurl %>
+</p>
+
+<p>
+  <strong>Thumurl:</strong>
+  <%= @memory.thumurl %>
+</p>
+
+<%= link_to 'Edit', edit_memory_path(@memory) %> |
+<%= link_to 'Back', memories_path %>
